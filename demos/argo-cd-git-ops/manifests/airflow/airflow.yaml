@@ -22,7 +22,7 @@ spec:
     #
     # TODO(@maltesander): Adapt branch to main / 25.7.0
     dagsGitSync:
-      - repo: https://github.com/stackabletech/demos/
+      - repo: https://github.com/adwk67/demos/
         branch: spike/argocd-demo
         gitFolder: "demos/argo-cd-git-ops/dags"
         depth: 2
@@ -80,7 +80,7 @@ spec:
         # - Use the demo parameters `customGitUrl` and `customGitBranch` to point the
         #   the repository to your fork and branch
         # - Change the replicas here and push that to the provided `customGitBranch` in your fork
-        replicas: 1
+        replicas: 2
   kubernetesExecutors:
     envOverrides: *envOverrides
     podOverrides:
