@@ -26,3 +26,4 @@ with DAG(
         task_id="bash_task",
         bash_command='echo "Here is the message: $message"',
         env={'message': '{% raw %}{{ dag_run.conf.get("message") }}{% endraw %}'},
+    )
