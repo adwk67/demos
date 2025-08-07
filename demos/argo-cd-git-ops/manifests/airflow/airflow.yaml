@@ -69,8 +69,8 @@ spec:
       gracefulShutdownTimeout: 30s
       resources:
         cpu:
-          min: 400m
-          max: "1"
+          min: 900m
+          max: "2"
         memory:
           limit: 2Gi
     roleGroups:
